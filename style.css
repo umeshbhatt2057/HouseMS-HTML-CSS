@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(assests/background.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+#navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px; /* Added rounded corners for the navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added subtle shadow for depth */
+    
+}
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+#navbar ul li a:hover {
+    color: #ffa500; /* Changed color on hover */
+}
+
+#top-section{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}
+#top-section h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+#top-section p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.btn{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #e68a00; /* Darker shade on hover */
+}
+
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+#bedroom{
+    width: 100%;
+    background-color: #ccc;
+    padding: 2% 7%;
+    box-sizing: border-box;
+}
+#dining{
+    width: 100%;
+    background-color: white;
+    padding: 2% 7%;
+    box-sizing: border-box;
+}
+#kitchen{
+    width: 100%;
+    background-color: #ccc;
+    padding: 2% 7%;
+    box-sizing: border-box;
+}
+#backyard{
+    width: 100%;
+    background-color: white;
+    padding: 2% 7%;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    padding: 10px 7%;
+    box-sizing: border-box;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
