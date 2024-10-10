@@ -113,3 +113,8 @@ footer{
     align-items: center; 
     
 }
+video {
+    display: block;
+    margin: 0 auto;
+}
+
